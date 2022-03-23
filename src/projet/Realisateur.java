@@ -6,33 +6,72 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import javax.swing.JOptionPane;
-
+/**
+ * Clase para los autores
+ * @author Javier
+ *
+ */
 public class Realisateur {
 	
 	
-	
+/**
+ * Numero del autor
+ */
 	private int id;
+	/**
+	 * Apellido del autor
+	 */
 	private String nom;
+	/**
+	 * Nombre del autor
+	 */
 	private String prenom;
+	/**
+	 * Método get para obtener el id
+	 * @return
+	 */
 	public int getId() {
 		return id;
 	}
+	/**
+	 * Método set para establecer el id
+	 * @param id
+	 */
 	public void setId(int id) {
 		this.id = id;
 	}
+	/**
+	 * Método get para obtener el apellido
+	 * @return
+	 */
 	public String getNom() {
 		return nom;
 	}
+	/**
+	 * Método set para establecer el apellido
+	 * @param nom
+	 */
 	public void setNom(String nom) {
 		this.nom = nom;
-	}
+	}/**
+	 * Método get para obtener el nombre
+	 * @return
+	 */
 	public String getPrenom() {
 		return prenom;
 	}
+	/**
+	 * Método set para establecer el nombre
+	 * @param prenom
+	 */
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
-	
+	/**
+	 * Método para insertar datos
+	 * @param nom
+	 * @param prenom
+	 */
 	public void insert(String nom,String prenom){
 		PreparedStatement stmt = null;
 		Statement stm;

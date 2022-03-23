@@ -31,7 +31,11 @@ import javax.swing.ImageIcon;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.SystemColor;
-
+/**
+ * Clase que "ventea" películas
+ * @author Javier
+ *
+ */
 public class Vente_Film extends JFrame {
 
 	private JPanel contentPane;

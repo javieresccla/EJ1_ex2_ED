@@ -23,8 +23,15 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.StringTokenizer;
 
+/**
+ * Borrar películas
+ * @author Javier
+ *
+ */
 public class Supprimer_Film extends JFrame {
-
+/**
+ * 
+ */
 	private JPanel contentPane;
 
 	public static void main(String[] args) {
@@ -40,7 +47,9 @@ public class Supprimer_Film extends JFrame {
 			}
 		});
 	}
-
+/**
+ * Constructor de la clase
+ */
 	public Supprimer_Film() {
 		this.setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

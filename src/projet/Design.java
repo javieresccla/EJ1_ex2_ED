@@ -29,8 +29,15 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.StringTokenizer;
 
+/**
+ * 
+ * @author Javier
+ *
+ */
 public class Design extends JFrame {
-
+/**
+ * 
+ */
 	private JPanel contentPane;
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {

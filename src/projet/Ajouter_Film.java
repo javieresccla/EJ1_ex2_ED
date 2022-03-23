@@ -68,7 +68,11 @@ import java.lang.String;
 import javax.swing.SwingConstants;
 import java.awt.Color;
 import javax.swing.UIManager;
-
+/**
+ * Funcion para añadir pelicula
+ * @author Javier
+ *
+ */
 public class Ajouter_Film extends JFrame {
 
 	private JPanel contentPane;
@@ -79,7 +83,10 @@ public class Ajouter_Film extends JFrame {
 
 
 
-
+/**
+ * Funcion principal
+ * @param args
+ */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -96,7 +103,9 @@ public class Ajouter_Film extends JFrame {
 		});
 	}
 
-	
+	/**
+	 * Constructor de la clase
+	 */
 	public Ajouter_Film() {
 		this.setResizable(false);
 		JLabel text2 = new JLabel("");
