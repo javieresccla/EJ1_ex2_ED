@@ -1,0 +1,10 @@
+## HOLA!
+No he podido terminar la práctica del todo debido a que me saltan algunos errores:
+
+Tras documentar todas las clase, métodos y variables he intentado generar el javadoc. 
+Al hacerlo, la consola me devuelve 8 erroes y la consola de errores me muestra lo siguiente:
+ * Description	Resource	Path	Location	Type Project 'projet' is missing required library: 'C:\Program Files\Java\jre7\lib\ext\sqlitejdbc-v056.jar'	projet		Build path	Build Path Problem
+ * Description	Resource	Path	Location	Type Project 'projet' is missing required library: 'C:\Users\Hatem\Downloads\New folder (2)\jfreechart-1.0.19-demo.jar'	projet		Build path	Build Path Problem
+Junto a un mensaje indicándome que no se puede hacer build al proyecto sin que estos dos errores se solucionen.
+
+Aún así el javadoc se ha creado, con parte de la información. Se encuentra en la carpeta "Doc".
